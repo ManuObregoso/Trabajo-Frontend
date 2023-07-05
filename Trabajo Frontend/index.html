@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+                 <!-- Página diseñada con Tailwind -->
+    <!-- Navegador.- -->
+    <nav id="nave" class="sticky top-0 flex-col items-center text-center bg-slate-400 w-30 h-30">
+        <header class="text-white bg-black text-1xl ">
+            ALQUILERES - COMPRA Y VENTA DE PROPIEDADES -CONSULTE DISPONIBILIDAD MES DE JULIO 2023
+        </header>
+        <a class="hover:text-cyan-300 text-xl" href="">Home</a>
+        <a class="hover:text-cyan-300 text-xl" href="#prin">Main</a>
+        <a class="hover:text-cyan-300 text-xl" href="#galeria">Galeria</a>
+        <a class="hover:text-cyan-300 text-xl" href="#contacto">Contactos</a>
+    </nav>
+    <!-- Portada -->
+    <section class="flex-row border-solid bg-red-100 w-full ml-1 text-center mb-4">
+        <div class="pt-12 bg-cover w-full h-screen" style="background-image:url(../imagenes/portada.jpg)">
+            <h1 class="text-black text-5xl  ">Inmobiliaria San Justo</h1>
+            <p class="text-black text-2xl">Alquileres, Compra y Venta de Propiedades. Consulta disponibilidad</p>
+            <button class="bg-orange-400 w-15 text-neutral-50">Registrar</button>
+        </div>
+    </section>
+    <!--  MAIN -->
+    <main id="prin" class="pl-2">
+        <h2 class="text-center text-2xl bg-orange-100"> Principal</h2>
+        <div class="flex flex-col w-full h-full">
+            <img class="xl:w-auto h-auto" src="../imagenes/Noticia/img.png" alt="">
+            <figure class="">Ley de Alquileres</figure>
+            <h3>A tres años de la ley de alquileres: quién ganó y quién perdió con los cambios en los contratos</h3>
+            <p>Desde la visión de Alejandro Bennazar, presidente de la Cámara Inmobiliaria Argentina (CIA), no hay matices: “ganadores, cero. Perdedores, todos”, resume. “Es una ley que perjudica a todos por igual, inquilinos, propietarios, desarrolladores y corredores inmobiliarios porque, entre otras cosas, dejó sin oferta al mercado”, señala.
+
+                En otras palabras, Federico Hornos, broker de Gustavo De Simone Soluciones Inmobiliarias, coincide: "Las consecuencias que trajo la ley no fueron nada positivas, ya que algunos propietarios decidieron sacar del alquiler los inmuebles y ponerlos a la venta, y otros apuntaron a modificar la modalidad de los contratos, convirtiendo los alquileres tradicionales en 'temporarios'. Esto llevó a que se disparen los valores y que cada vez sea más complicado para los inquilinos lograr conseguir una propiedad disponible y a buen valor", resumió.
+
+                Los puntos más controvertidos de la ley -de la autoría del exdiputado de Juntos por el Cambio Daniel Lipovetzky- son la extensión de los contratos de dos años a tres y la actualización anual de los precios, que se realiza a partir del Índice de Contratos de Locación (ICL) publicado por el Banco Central. Antes los acuerdos se pactaban entre las partes.</p>
+        </div>
+
+    </main>
+
+    <!--  GALERIA DE IMÁGENES -->
+    <!-- Card Alquileres -->
+    <section id="galeria" class="mt-2">
+        <h2 class="text-center text-2xl bg-orange-100">GALERÍA</h2>
+
+         <div class="flex flex-col w-full h-full gap-4 items-center xl:flex-row justify-center">
+                    <!-- card 1 -->
+             <div class="w-350px h-300px text-center">
+                <img src="../imagenes/alquiler/1.jfif" alt="">
+                <h2>Alquiler de Quinta</h2>
+                <p>2 hab. 1 baño. quincho</p>
+                <button class="bg-orange-400 w-15 text-neutral-50">Consultar</button>
+            </div>
+
+        <!-- card 2 -->
+            <div class="border-solid w-350px h-300px text-center">
+                <img src="../imagenes/alquiler/2.jfif" alt="">
+                <h2>Alquiler de Casa</h2>
+                <p>3 hab. 1 baño. pileta</p>
+                <button class="bg-orange-400 w-15 text-neutral-50">Consultar</button>
+            </div>
+           <!-- card 3 -->
+           <div class="border-solid w-350px h-300px text-center">
+                <img src="..//imagenes/alquiler/3.jfif" alt="">
+                <h2>Alquiler de Quinta</h2>
+                <p>Pileta. 3 hab. cocina. comedor. </p>
+                <button class="bg-orange-400 w-15 text-neutral-50">Consultar</button>
+             </div>
+         </div>
+    </section>
+
+    <!--  compra y venta -->
+    <section class="mt-1 mb-1">
+        <h2 class="text-center text-2xl bg-orange-100">Compra de Propiedades</h2>
+        <div class="flex flex-col w-full h-full text-center items-center xl:flex-row justify-center gap-4">
+            <div class="w-52 h-48" >
+                <img src="../imagenes/ofertas/2.jpg" alt="">
+                <h3>Venta de Casa</h3>
+                <p>3 hab. comedor.cocina.Garage.Pileta</p>
+                <button class="bg-orange-400 w-15 text-neutral-50">Consultar</button>
+            </div>
+
+            <!-- Casa 2 -->
+            <div class="w-52 h-48" >
+                <img src="../imagenes/ofertas/1.jfif" alt="">
+                <h3>Venta de Departamento</h3>
+                <p>2 hab. Baño. Living. Terraza</p>
+                <button class="bg-orange-400 w-15 text-neutral-50">Consultar</button>
+            </div>
+            <!-- Casa 3 -->
+            <div class="w-52 h-48" >
+                <img src="../imagenes/ofertas/3.jpg" alt="">
+                <h3>Venta de Departamento</h3>
+                <p>Pleno centro. 2 hab. Living Comedor. Baño.</p>
+                <button class="bg-orange-400 w-15 text-neutral-50">Consultar</button>
+            </div>
+            <!-- Casa 4 -->
+            <div class="w-52 h-50" >
+                <img src="../imagenes/ofertas/4.jpg" alt="">
+                <h3>Venta de Departamento</h3>
+                <p>3 hab. quincho. pileta.</p>
+                <button class="bg-orange-400 w-15 text-neutral-50">Consultar</button>
+            </div>
+        </div>
+        <!-- casa 1 -->
+
+    </section>
+
+    <!--  Contacto - Información -->
+    <section id="contacto" class="flex flex flex-col w-full h-fullflex-col w-full h-full xl:flex-row justify-center">
+        <div >
+            <h2 class="text-center text-2xl bg-orange-100">CONTACTO</h2>
+            <p>Calle Viamonte N° 345 San Carlos de Bolívar - Pcia de Bs As - ArgentinaCon 30 años en el rubro. Confianza, Responsabilidad</p>
+            <iframe class="xl:ml-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12874.663684353673!2d-61.13324234458008!3d-36.2233143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe3161c0ba0b3%3A0xf04c91d495b20b64!2sESTREBOU%20OMAR%20-%20INMOBILIARIA!5e0!3m2!1ses-419!2sar!4v1688425062503!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
+
+<!-- Pie de Página -->
+    <footer class="mt-2 bg-slate-400 h-18">
+        <div class="flex flex-col-reverse w-full h-full justify-between xl:flex-row">
+            <h4> Manuel Obregoso -(2314) 15674390 - (2314) 15675643 - Viamonte N° 345 - San Carlos de Bolívar - 2023 </h4>
+            <span class="w-5 h-5">
+                <a href=""><img src="../imagenes/Redes/f.png" alt=""></a>
+            </span>
+            <span class="w-5 h-5">
+                <a href=""><img src="../imagenes/Redes/ins.jpg" alt=""></a>
+            </span>
+            <span class="w-5 h-5">
+                <a href=""><img src="../imagenes/Redes/twitter.png" alt=""></a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
